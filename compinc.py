@@ -411,3 +411,8 @@ elif grupo == 'M - Especial':
             st.write('Deve haver compartimentação a cada 500 m2.')
         elif altura == '> 30,00 m':
             st.write('Deve haver compartimentação a cada 500 m2.')
+
+mostrarcurso = st.checkbox('Quero saber mais sobre proteção contra incêndio.')
+if mostrarcurso:
+    st.write('Visite: https://www.silmarsendin.com/cursos-on-line-1 ')
+st.write('Voltar ao site do Professor','http://www.silmarsendin.com')
