@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-image = Image.open('imagens/compinc.png')
+image = Image.open('compinc.png')
 st.image(image)
 
 
